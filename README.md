@@ -68,3 +68,6 @@ I'm trying more to break out the codes in the main loop into private functions. 
   Sketch uses 20984 bytes (65%) of program storage space. Maximum is 32256 bytes.
   Global variables use 1693 bytes (82%) of dynamic memory, leaving 355 bytes for local variables. Maximum is 2048 bytes.
   Low memory available, stability problems may occur.
+
+
+>> Apparently, SD library took up 38% of the SRAM !!!
