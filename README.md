@@ -1,4 +1,4 @@
-# GPS SD Logger
+# GPS SD Logger :satellite:
 ## Adafruit Metro + Adafruit Ultimate GPS
 
 Uses the same circuit as the Clip-on GPS CAM project. The button contain 2 modes depending on the amount of time pressed: 1.5 sec to start/stop recording, 0.5 sec to pause or resume the recording. All the location data was recorded to SD card at 1 Hz.
