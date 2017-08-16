@@ -71,3 +71,9 @@ I'm trying more to break out the codes in the main loop into private functions. 
 
 
 ## Apparently, SD library took up 38% of the SRAM !!!
+
+### 08/16/2017 (1)
+
+A problem with parsing NMEA again. I tried moving power source from PIN 5 to main line during the program and it seem to work well. This might be the problem(?)
+  
+
