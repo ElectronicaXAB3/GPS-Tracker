@@ -33,11 +33,11 @@ Interrupt is basically you are trying to do something while in the middle of oth
 
 I'm trying more to break out the codes in the main loop into private functions. The two main reasons are that I'm trying to organize the code and trying to save memories esp. SRAM. Since when the function closes, the memory allocated for stack (local variables) will be 100% reclaimed as free space; thus, freeing up space and prevent RAM crashes. The new functions include: 
   
-  * void flash (uint8_t pin, char times) --> replace manual LED blinking
-  * File createFile(File & logfile, char *prefix) --> generate file
-  * void logGPSNMEA (File & logfile) --> log GPS to specified file
-  * char timerswitch(uint8_t nswitch) --> switch operator by time pressed
-  * void error() --> error signal
+    void flash (uint8_t pin, char times) --> replace manual LED blinking
+    File createFile(File & logfile, char *prefix) --> generate file
+    void logGPSNMEA (File & logfile) --> log GPS to specified file
+    char timerswitch(uint8_t nswitch) --> switch operator by time pressed
+    void error() --> error signal
   
   Some learning notes here:
   
