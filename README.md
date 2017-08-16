@@ -74,6 +74,6 @@ I'm trying more to break out the codes in the main loop into private functions. 
 
 ### 08/16/2017 (1)
 
-A problem with parsing NMEA again. I tried moving power source from PIN 5 to main line during the program and it seem to work well. This might be the problem(?)
+A problem with parsing NMEA again. I tried moving power source from PIN 5 to main line during the program and it seem to work well. This might be the problem(?) Or it could just be that my free RAM is not enough because sometimes that couldn't solve it and sometimes it just work by itself. 
   
 
