@@ -70,4 +70,4 @@ I'm trying more to break out the codes in the main loop into private functions. 
   Low memory available, stability problems may occur.
 
 
->> Apparently, SD library took up 38% of the SRAM !!!
+## Apparently, SD library took up 38% of the SRAM !!!
