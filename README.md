@@ -9,11 +9,15 @@ Debug Notes
 
   In some cases, GPS.read() will print out the following
   
-  $PGACK,103*40  -->  getting ready for a cold-start (flushing all memory of previous fixes)
-  $PGACK,105*46  -->  GPS initialization routine is done
-  $PMTK011,MTKGPS*08  -->  MTKGPS is a general chip identifier
-  $PMTK010,001*2E  -->  configuration is completed
-  $PMTK010,002*2D  -->  module is awake and waiting for input on the Serial connection
+    $PGACK,103*40  -->  getting ready for a cold-start (flushing all memory of previous fixes)
+  
+    $PGACK,105*46  -->  GPS initialization routine is done
+  
+    $PMTK011,MTKGPS*08  -->  MTKGPS is a general chip identifier
+  
+    $PMTK010,001*2E  -->  configuration is completed
+  
+    $PMTK010,002*2D  -->  module is awake and waiting for input on the Serial connection
   
   All of these indicate startup signals.
  
