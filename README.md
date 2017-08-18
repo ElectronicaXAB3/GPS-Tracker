@@ -3,6 +3,9 @@
 
 Uses the same circuit as the Clip-on GPS CAM project. The button contain 2 modes depending on the amount of time pressed: 1.5 sec to start/stop recording, 0.5 sec to pause or resume the recording. All the location data was recorded to SD card at 1 Hz.
 
+### Breadboard Photo
+![breadboard](https://user-images.githubusercontent.com/13774129/29469049-aac732a2-8414-11e7-8cbf-b1b1ed08c76b.jpg)
+
 ## Debug Notes
 
 ### 08/15/2017 (1) 
